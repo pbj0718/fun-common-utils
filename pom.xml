@@ -181,19 +181,6 @@
             <scope>provided</scope>
         </dependency>
 
-        <!-- Springfox-Swagger start -->
-        <dependency>
-            <groupId>io.springfox</groupId>
-            <artifactId>springfox-swagger2</artifactId>
-            <version>2.9.2</version>
-        </dependency>
-        <dependency>
-            <groupId>io.springfox</groupId>
-            <artifactId>springfox-swagger-ui</artifactId>
-            <version>2.9.2</version>
-        </dependency>
-        <!-- Springfox-Swagger end -->
-
         <!-- commons-fileupload -->
         <dependency>
             <groupId>commons-fileupload</groupId>
@@ -220,30 +207,6 @@
             <artifactId>commons-codec</artifactId>
         </dependency>
 
-        <!-- ActiveMQ相关依赖 -->
-        <dependency>
-            <groupId>javax.jms</groupId>
-            <artifactId>javax.jms-api</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-jms</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.activemq</groupId>
-            <artifactId>activemq-pool</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.activemq</groupId>
-            <artifactId>activemq-broker</artifactId>
-            <!-- 将低版本的jackson-databind排除 -->
-            <exclusions>
-                <exclusion>
-                    <groupId>com.fasterxml.jackson.core</groupId>
-                    <artifactId>jackson-databind</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
         <dependency>
             <groupId>net.sf.jacob-project</groupId>
             <artifactId>jacob</artifactId>
